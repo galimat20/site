@@ -1,0 +1,97 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 70%;
+    padding: 50px;
+    background-color: rgb(216, 246, 255);
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: 0 0 5px 2px rgb(180, 241, 252);
+
+}
+body{
+    background-color: rgb(188, 222, 245);
+}
+.dox{
+    width: calc(50% - 40px);
+    height: calc((35vw - 40px) /  16 * 9);
+    margin:20px;
+    background-color: aqua;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    border: 2px solid rgb(164, 200, 202);
+    transition: all 0.5px ease;
+    box-shadow: 0 0 5px 2px hotpink;
+    cursor: pointer;
+
+}
+
+h1{
+    width: 100%;
+    text-align: center;
+    font-size: 64px;
+}
+.photo1{
+    background-image: url(../img/love5.jpg);
+}
+.photo2{
+    background-image: url(../img/love2.jpg);
+}
+.photo3{
+    background-image: url(../img/love3.jpg);
+}
+.photo4{
+    background-image: url(../img/love1.jpg);
+}
+.photo5{
+    background-image: url(../img/999999.jpg);
+}
+.photo6{
+    background-image: url(../img/33333.gif);
+}
+.photo7{
+    background-image: url(../img/22222.gif);
+}
+.photo8{
+    background-image: url(../img/1.webp);
+}
+.photo9{
+    background-image: url(../img/1.jpg);
+}
+.photo10{
+    background-image: url(../img/11111.gif);
+}
+.photo11{
+    background-image: url(../img/167.jpg)
+}
+.photo12{
+    background-image: url(../img/2.webp)
+}
+.dox:hover{
+    box-shadow: 2px 4px 10px;
+    transform: scale(1.1);
+} 
+a{
+    margin-top: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 24px;
+    text-align: center;
+    text-decoration: none;
+    border: 50px;
+    padding: 30px;
+    transition: all 0.3s ease;
+    border: 10px solid;
+    cursor: pointer;
+    border-radius: 50px;
+}
+a:hover{
+    box-shadow: 0 0 10px 2px;
+}
